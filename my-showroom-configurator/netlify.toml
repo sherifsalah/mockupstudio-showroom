@@ -1,0 +1,7 @@
+# Netlify configuration for static site
+# No build command needed - just serve the files as-is
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
