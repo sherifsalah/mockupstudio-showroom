@@ -1,0 +1,106 @@
+{
+  "name": "Xcc",
+  "background": "scene.webp",
+  "load": "sofa:leather",
+  "imageSize": {
+    "width": 1366,
+    "height": 768
+  },
+  "layers": {
+    "wall": {
+      "title": "Wall",
+      "visible": true,
+      "hotspot": {
+        "id": 2,
+        "title": "Wall",
+        "visible": true,
+        "position": {
+          "x": 1017.937438177545,
+          "y": 113.55885042137126
+        }
+      },
+      "folder": "scene/wall",
+      "variations": 5,
+      "order": 1
+    },
+    "layer-1": {
+      "name": "layer-1",
+      "title": "Layer 1",
+      "visible": true,
+      "group": "product-layer",
+      "hotspot": {
+        "id": 3,
+        "title": "Layer 1",
+        "visible": true,
+        "position": {
+          "x": 765.7817482116179,
+          "y": 118.10652863426536
+        }
+      },
+      "order": 2,
+      "products": [
+        {
+          "id": "sofa",
+          "title": "sofa",
+          "materials": [
+            {
+              "id": "leather",
+              "title": "Leather",
+              "source": "products/layer-1/sofa/leather",
+              "colors": [
+                {
+                  "name": "Schwarz",
+                  "hex": "#2A2A2A"
+                },
+                {
+                  "name": "Anthrazit",
+                  "hex": "#5A5A5A"
+                },
+                {
+                  "name": "Braun",
+                  "hex": "#3E2C22"
+                },
+                {
+                  "name": "Marineblau",
+                  "hex": "#1E3A5F"
+                },
+                {
+                  "name": "Türkis",
+                  "hex": "#1F4A45"
+                },
+                {
+                  "name": "Bordeaux",
+                  "hex": "#4A1C1C"
+                },
+                {
+                  "name": "Rost",
+                  "hex": "#7A3E1A"
+                },
+                {
+                  "name": "Gold",
+                  "hex": "#8B6F2B"
+                },
+                {
+                  "name": "Taupe",
+                  "hex": "#7B7169"
+                },
+                {
+                  "name": "Silber",
+                  "hex": "#B8B8B8"
+                },
+                {
+                  "name": "Salbei",
+                  "hex": "#5B8C7D"
+                },
+                {
+                  "name": "Waldgrün",
+                  "hex": "#2D5C45"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
