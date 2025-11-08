@@ -1,0 +1,106 @@
+{
+  "name": "My Showroom Configurator",
+  "background": "scene.webp",
+  "load": "table:wood",
+  "imageSize": {
+    "width": 2549,
+    "height": 1490
+  },
+  "layers": {
+    "wall": {
+      "title": "Wall",
+      "visible": true,
+      "hotspot": {
+        "id": 2,
+        "title": "Wall",
+        "visible": true,
+        "position": {
+          "x": 338,
+          "y": 222
+        }
+      },
+      "folder": "scene/wall",
+      "variations": 1,
+      "order": 1
+    },
+    "layer-1": {
+      "name": "layer-1",
+      "title": "Layer 1",
+      "visible": true,
+      "group": "product-layer",
+      "hotspot": {
+        "id": 3,
+        "title": "Layer 1",
+        "visible": true,
+        "position": {
+          "x": 1232,
+          "y": 772
+        }
+      },
+      "order": 2,
+      "products": [
+        {
+          "id": "table",
+          "title": "Table",
+          "materials": [
+            {
+              "id": "wood",
+              "title": "Wood",
+              "source": "products/layer-1/table/wood",
+              "colors": [
+                {
+                  "name": "Schwarz",
+                  "hex": "#2A2A2A"
+                },
+                {
+                  "name": "Anthrazit",
+                  "hex": "#5A5A5A"
+                },
+                {
+                  "name": "Braun",
+                  "hex": "#3E2C22"
+                },
+                {
+                  "name": "Marineblau",
+                  "hex": "#1E3A5F"
+                },
+                {
+                  "name": "Türkis",
+                  "hex": "#1F4A45"
+                },
+                {
+                  "name": "Bordeaux",
+                  "hex": "#4A1C1C"
+                },
+                {
+                  "name": "Rost",
+                  "hex": "#7A3E1A"
+                },
+                {
+                  "name": "Gold",
+                  "hex": "#8B6F2B"
+                },
+                {
+                  "name": "Taupe",
+                  "hex": "#7B7169"
+                },
+                {
+                  "name": "Silber",
+                  "hex": "#B8B8B8"
+                },
+                {
+                  "name": "Salbei",
+                  "hex": "#5B8C7D"
+                },
+                {
+                  "name": "Waldgrün",
+                  "hex": "#2D5C45"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
